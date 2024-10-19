@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.form label{
+    font-weight: 700;
+}
+
+.form input{
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.form button{
+    background: blue;
+    color: #fff;
+    margin: 0px;
+}
+
+.form button:disabled{
+    opacity: .7;
+}
+
+.errorText{
+    color: red;
+    font-size: 80%;
+}

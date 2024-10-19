@@ -1,0 +1,37 @@
+.contactBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.contact {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}
+.field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.field p {
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,9 @@
+.links{
+    display: flex;
+    gap: 15px;
+}
+.links a {
+    font-weight: 700;
+    color: #333;
+    font-size: 20px;
+}

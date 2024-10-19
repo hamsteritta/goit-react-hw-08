@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.box{
+    margin: 0px;
+}
+
+.box button{
+    background: blue;
+    color: #fff;
+    margin: 0px;
+}
